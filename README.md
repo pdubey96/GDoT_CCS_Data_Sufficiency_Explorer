@@ -8,6 +8,32 @@ count stations:
 
 ---
 
+It is the interactive companion to the GDOT 26-OTD-1 final report, built from
+the same frozen analysis: 233 stations, twelve calendar months each, all six
+declared outage patterns, seed 20260719.
+
+---
+
+## Getting the file
+
+**If you were sent a folder**, unzip it anywhere and skip to the next section.
+
+**If you are reading this on GitHub**, the tool is a 25 MB single file, which is
+too large for GitHub to preview — clicking it shows a "too big to display"
+notice rather than the dashboard. Download it instead:
+
+- open `GDoT Data-Sufficiency Explorer.html`, then use the **Download raw file**
+  button (the download icon at the top right of the file view); or
+- clone the whole repository:
+  ```bash
+  git clone https://github.com/pdubey96/GDoT_CCS_Data_Sufficiency_Explorer.git
+  ```
+
+Either way you end up with the same file on your own machine, which is where it
+runs.
+
+---
+
 ## How to run it
 
 **Double-click `GDoT Data-Sufficiency Explorer.html`.** It opens in your web
@@ -19,6 +45,9 @@ browser. That is the whole procedure.
   233 stations — so it is large, and the first load takes a few seconds. After
   that it is immediate.
 - You can forward that single file to a colleague and it will work for them.
+- It follows your computer's light or dark setting, so it may not match the
+  screenshots in the guide, which are all light. The **Theme** button at the top
+  right switches between them.
 
 **If it opens as code instead of a page**, your computer has `.html` files set
 to open in a text editor. Right-click the file → **Open With** → your browser.
@@ -26,7 +55,7 @@ Once only.
 
 ---
 
-## What is in this folder
+## What is here
 
 | File | What it is |
 |---|---|
