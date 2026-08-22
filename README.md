@@ -16,21 +16,23 @@ declared outage patterns, seed 20260719.
 
 ## Getting the file
 
-The tool is a single 25 MB file. Download it, then open it. Two ways:
+Each file downloads on its own. Click it, then press **Download raw file** —
+the download icon at the top right of the file view:
 
-**Just the tool.** Open
-[`GDoT Data-Sufficiency Explorer.html`](GDoT%20Data-Sufficiency%20Explorer.html)
-and press **Download raw file** — the download icon at the top right.
+- [`GDoT Data-Sufficiency Explorer.html`](GDoT%20Data-Sufficiency%20Explorer.html)
+  — the tool
+- [`dashboard_how_to_use.pdf`](dashboard_how_to_use.pdf) — the guide, which also
+  opens right here in the browser if you only want to read it
 
-**The tool and the guide together.**
+Or take both at once:
 
 ```bash
 git clone https://github.com/pdubey96/GDoT_CCS_Data_Sufficiency_Explorer.git
 ```
 
-GitHub cannot preview a file this large, so clicking it here shows
-*"this file is too big to display"* instead of the dashboard. That is expected.
-It runs on your machine, not on GitHub.
+The tool is a single 25 MB file, which is more than GitHub will preview, so
+clicking it shows *"this file is too big to display"* instead of the dashboard.
+That is expected. It runs on your machine, not on GitHub.
 
 ---
 
