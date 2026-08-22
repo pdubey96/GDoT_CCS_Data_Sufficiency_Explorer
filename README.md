@@ -24,15 +24,15 @@ the download icon at the top right of the file view:
 - [`dashboard_how_to_use.pdf`](dashboard_how_to_use.pdf) — the guide, which also
   opens right here in the browser if you only want to read it
 
-Or take both at once:
+The tool is a single 25 MB file, which is more than GitHub will preview, so
+clicking it shows *"this file is too big to display"* instead of the dashboard.
+That is expected. Download it anyway — it runs on your machine, not on GitHub.
+
+If you already use git, this takes both at once instead:
 
 ```bash
 git clone https://github.com/pdubey96/GDoT_CCS_Data_Sufficiency_Explorer.git
 ```
-
-The tool is a single 25 MB file, which is more than GitHub will preview, so
-clicking it shows *"this file is too big to display"* instead of the dashboard.
-That is expected. It runs on your machine, not on GitHub.
 
 ---
 
