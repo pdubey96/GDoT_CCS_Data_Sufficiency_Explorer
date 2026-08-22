@@ -16,21 +16,24 @@ declared outage patterns, seed 20260719.
 
 ## Getting the file
 
-**If you were sent a folder**, unzip it anywhere and skip to the next section.
+The tool is one 25 MB file. GitHub will not preview anything that large, so
+opening it here shows a *"this file is too big to display"* notice instead of
+the dashboard. That is expected: it has to come down to your own machine, which
+is where it runs.
 
-**If you are reading this on GitHub**, the tool is a 25 MB single file, which is
-too large for GitHub to preview — clicking it shows a "too big to display"
-notice rather than the dashboard. Download it instead:
+Either way works:
 
-- open `GDoT Data-Sufficiency Explorer.html`, then use the **Download raw file**
-  button (the download icon at the top right of the file view); or
-- clone the whole repository:
+- **Just the tool.** Open
+  [`GDoT Data-Sufficiency Explorer.html`](GDoT%20Data-Sufficiency%20Explorer.html)
+  and press **Download raw file** — the download icon at the top right of the
+  file view.
+- **Everything, including the guide.**
   ```bash
   git clone https://github.com/pdubey96/GDoT_CCS_Data_Sufficiency_Explorer.git
   ```
 
-Either way you end up with the same file on your own machine, which is where it
-runs.
+*Sent these files as a folder instead? You already have everything — unzip it
+anywhere and carry on.*
 
 ---
 
@@ -59,8 +62,8 @@ Once only.
 
 | File | What it is |
 |---|---|
-| `GDoT Data-Sufficiency Explorer.html` | The tool. Double-click this. |
-| `dashboard_how_to_use.pdf` | Illustrated guide — a five-step first run, every control, every tab. Assumes no statistics. |
+| [`GDoT Data-Sufficiency Explorer.html`](GDoT%20Data-Sufficiency%20Explorer.html) | The tool. Download it, then double-click it. 25 MB, so GitHub shows a "too big to display" notice rather than the page itself. |
+| [`dashboard_how_to_use.pdf`](dashboard_how_to_use.pdf) | Illustrated guide, 22 pages — a five-step first run, every control, every tab. Assumes no statistics. Readable here in the browser. |
 | `README.md` | This file. |
 
 ---
