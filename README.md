@@ -113,14 +113,12 @@ puts everything back.
 
 ## What it does not claim
 
-- The recommendation is guidance for a **future** month. A month already in hand
-  and complete is simply reported — no prediction is involved.
-- It is tied to a **stated** kind of outage, not a guarantee for any arbitrary
-  pattern of missing days.
-- The guarantee is **per station**, one at a time, not simultaneous across the
-  network.
-- A narrow range is not automatically a correct one: tightness and reliability
-  are separate, and the tool reports both.
+- The recommendation is guidance for a **future** month, not a verdict on a
+  month you already hold.
+- It is tied to a **stated** kind of outage, not to any arbitrary pattern of
+  missing days.
+- The guarantee is **per station**, not simultaneous across the network.
+- Tight and correct are not the same thing: a narrow range can still miss.
 
-The **How to read this** tab inside the tool restates all of this alongside the
-data.
+The **How to read this** tab restates this beside the data; the guide and the
+final report set it out properly.
