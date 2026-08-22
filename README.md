@@ -113,12 +113,9 @@ puts everything back.
 
 ## What it does not claim
 
-- The recommendation is guidance for a **future** month, not a verdict on a
-  month you already hold.
 - It is tied to a **stated** kind of outage, not to any arbitrary pattern of
   missing days.
 - The guarantee is **per station**, not simultaneous across the network.
-- Tight and correct are not the same thing: a narrow range can still miss.
 
 The **How to read this** tab restates this beside the data; the guide and the
 final report set it out properly.
