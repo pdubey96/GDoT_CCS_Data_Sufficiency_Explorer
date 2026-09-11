@@ -62,7 +62,7 @@ Once only.
 | File | What it is |
 |---|---|
 | [`GDoT Data-Sufficiency Explorer.html`](GDoT%20Data-Sufficiency%20Explorer.html) | The tool. Download it, then double-click it. 25 MB, so GitHub shows a "too big to display" notice rather than the page itself. |
-| [`dashboard_how_to_use.pdf`](dashboard_how_to_use.pdf) | The guide, 23 pages. Walks you through one run, then explains every part of the screen. No statistics needed. Opens here in the browser. |
+| [`dashboard_how_to_use.pdf`](dashboard_how_to_use.pdf) | The guide, 24 pages. Walks you through one run, then explains every part of the screen. No statistics needed. Opens here in the browser. |
 | `README.md` | This file. |
 
 ---
