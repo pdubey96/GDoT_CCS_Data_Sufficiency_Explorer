@@ -1,41 +1,27 @@
 # GDoT CCS Data-Sufficiency Explorer
 
-An interactive tool that answers one question for any of Georgia's continuous
-count stations:
+> **A month came in with days missing. How many good days does this station need
+> before its monthly average can be published?**
 
-> **A month came in with days missing. How many good days does this station
-> need before its monthly average can be published?**
-
----
-
-It is the interactive companion to the GDOT 26-OTD-1 final report, built from
-the same frozen analysis: 233 stations, twelve calendar months each, all six
-declared outage patterns, seed 20260719.
-
-The same answers are also delivered here as a spreadsheet, so you can look one
-up without opening the tool. The two agree on all 2,796 station-months.
+Four files answer that, for every continuous count station in Georgia and every
+calendar month. Take **the tool** if you want to explore one station-month and
+see the evidence; take **the spreadsheet** if you just want the number.
 
 ---
 
-## Getting the files
+## The files
 
-Each file downloads on its own. Click it, then press **Download raw file** —
-the download icon at the top right of the file view:
+| | File | What it is | Click it here and… |
+|---|---|---|---|
+| 🖥️ | **[GDoT Data-Sufficiency Explorer.html](GDoT%20Data-Sufficiency%20Explorer.html)**<br><sub>25 MB</sub> | **The tool.** Pick a station, a month and a kind of outage, and watch the answer recompute. | …GitHub says *"too big to display"*. That is expected — **download it and double-click it.** It runs on your machine, not here. |
+| 📗 | **[dashboard_how_to_use.pdf](dashboard_how_to_use.pdf)**<br><sub>25 pages</sub> | The guide to the tool. Walks through one run, then explains every part of the screen. No statistics needed. | …it opens and reads right here in the browser. |
+| 📊 | **[practitioner_site_month_kstar.csv](practitioner_site_month_kstar.csv)**<br><sub>2,796 rows × 12 columns</sub> | **The spreadsheet.** One row per station and calendar month, with the recommended number of days and the six per-pattern numbers behind it. | …GitHub shows it as a searchable table, so you can look a station up **without downloading anything**. It also opens in Excel. |
+| 📕 | **[practitioner_site_month_kstar_how_to_read.pdf](practitioner_site_month_kstar_how_to_read.pdf)**<br><sub>6 pages</sub> | The guide to the spreadsheet. A worked example, then what every column means. | …it opens and reads right here in the browser. |
 
-- [`GDoT Data-Sufficiency Explorer.html`](GDoT%20Data-Sufficiency%20Explorer.html)
-  — the tool
-- [`dashboard_how_to_use.pdf`](dashboard_how_to_use.pdf) — the guide to the tool,
-  which also opens right here in the browser if you only want to read it
-- [`practitioner_site_month_kstar.csv`](practitioner_site_month_kstar.csv) — the
-  spreadsheet
-- [`practitioner_site_month_kstar_how_to_read.pdf`](practitioner_site_month_kstar_how_to_read.pdf)
-  — the guide to the spreadsheet
+**To save any one of them:** open it, then press **Download raw file** — the
+download icon at the top right of the file view.
 
-The tool is a single 25 MB file, which is more than GitHub will preview, so
-clicking it shows *"this file is too big to display"* instead of the dashboard.
-That is expected. Download it anyway — it runs on your machine, not on GitHub.
-
-If you already use git, this takes all four at once instead:
+**To take all four at once**, if you use git:
 
 ```bash
 git clone https://github.com/pdubey96/GDoT_CCS_Data_Sufficiency_Explorer.git
@@ -43,7 +29,7 @@ git clone https://github.com/pdubey96/GDoT_CCS_Data_Sufficiency_Explorer.git
 
 ---
 
-## How to run it
+## How to run the tool
 
 **Double-click `GDoT Data-Sufficiency Explorer.html`.** It opens in your web
 browser. That is the whole procedure.
@@ -64,26 +50,16 @@ Once only.
 
 ---
 
-## What is here
-
-| File | What it is |
-|---|---|
-| [`GDoT Data-Sufficiency Explorer.html`](GDoT%20Data-Sufficiency%20Explorer.html) | The tool. Download it, then double-click it. 25 MB, so GitHub shows a "too big to display" notice rather than the page itself. |
-| [`dashboard_how_to_use.pdf`](dashboard_how_to_use.pdf) | The guide to the tool, 25 pages. Walks you through one run, then explains every part of the screen. No statistics needed. Opens here in the browser. |
-| [`practitioner_site_month_kstar.csv`](practitioner_site_month_kstar.csv) | The spreadsheet. One row per station and calendar month — 2,796 of them — with the recommended number of days and the six per-pattern numbers behind it. Opens in Excel. |
-| [`practitioner_site_month_kstar_how_to_read.pdf`](practitioner_site_month_kstar_how_to_read.pdf) | The guide to the spreadsheet, 6 pages. A worked example, then what every column means. Opens here in the browser. |
-| `README.md` | This file. |
-
----
-
-## What it covers
+## What it covers, and where it comes from
 
 All **233** continuous count stations that delivered data in 2024, every
 calendar month — **2,796 station-months** — under **six** different patterns of
-how the days could go missing.
+how the days could go missing. For each one it gives a recommended number of
+valid days, and lets you see the evidence behind that number.
 
-For each one it gives a recommended number of valid days, and lets you see the
-evidence behind that number.
+These are the interactive and tabular companions to the GDOT 26-OTD-1 final
+report, built from the same frozen analysis at seed `20260719`. The tool and the
+spreadsheet carry the same numbers and agree on all 2,796 station-months.
 
 ---
 
